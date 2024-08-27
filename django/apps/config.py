@@ -101,6 +101,7 @@ class AppConfig:
         """
         Factory that creates an app config from an entry in INSTALLED_APPS.
         """
+        print(entry)
         # create() eventually returns app_config_class(app_name, app_module).
         app_config_class = None
         app_name = None
